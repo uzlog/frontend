@@ -22,6 +22,7 @@
   "author": "Paulus Schoutsen <Paulus@PaulusSchoutsen.nl> (http://paulusschoutsen.nl)",
   "license": "Apache-2.0",
   "dependencies": {
+    "@babel/plugin-syntax-top-level-await": "^7.14.5",
     "@braintree/sanitize-url": "^5.0.1",
     "@codemirror/commands": "^0.18.0",
     "@codemirror/gutter": "^0.18.0",

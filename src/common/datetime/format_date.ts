@@ -1,5 +1,8 @@
 import memoizeOne from "memoize-one";
 import { FrontendLocaleData } from "../../data/translation";
+import { polyfillsLoaded } from "../translations/localize";
+
+await polyfillsLoaded;
 
 const formatDateMem = memoizeOne(
   (locale: FrontendLocaleData) =>
